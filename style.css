@@ -538,6 +538,7 @@ legend p{
 }
 
 textarea{
+    font-family:"Maven Pro Regular",sans-serif;
     height:150px;
     padding-top:13px;
     resize:none;
@@ -553,6 +554,57 @@ textarea{
     font-size:11px;
 }
 
+
+
+.contacts div:nth-child(1) .contact-item{
+    width:7px;
+    height:11px;
+    background: url("./assets/location@1X.png");
+    display:inline-block;
+}
+.contacts div:nth-child(2) .contact-item{
+    width:11px;
+    height:11px;
+    background: url("./assets/phone@1X.png");
+    display:inline-block;
+}
+.contacts div:nth-child(3) .contact-item{
+    width:13px;
+    height:8px;
+    background: url("./assets/mail@1X.png");
+    display:inline-block;
+}
+
+.contacts p{
+    font-size: 12px;
+    color: rgba(190, 190, 190, 255);
+    text-align: justify;
+    display:inline-block;
+}
+a{
+    text-decoration:none;
+}
+
+.wrapper{
+    display:inline-block;
+    width:15px;
+    text-align:center;
+    margin-right:7px;
+}
+
+.contacts a{
+    color: rgba(190, 190, 190, 255);
+}
+.contacts{
+    margin-top:47px;
+    margin-left:-4px;
+}
+.contacts div:nth-child(2){
+    margin-top:6px;
+}
+.contacts div:nth-child(3){
+    margin-top:6px;
+}
 
 footer{
     position:relative;
