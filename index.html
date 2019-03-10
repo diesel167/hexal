@@ -90,7 +90,7 @@
         </section>
     </main>
     <footer>
-        <form action="#" class="in-touch-form" method="post">
+        <form action="#" id="form" class="in-touch-form" method="post">
             <fieldset>
                 <legend>
                     <h4>Get In Touch</h4>
@@ -99,7 +99,7 @@
                 <input class="input-text" type="text" placeholder="Name(Required)" required>
                 <input type="email" placeholder="Email(Required)" required>
                 <input type="text" placeholder="Subject">
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+                <textarea name="message" form="form" cols="30" rows="10" placeholder="Write your message here..."></textarea>
             </fieldset>
             <button class="button" type="submit">send</button>
         </form>
